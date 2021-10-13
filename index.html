@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href='style.css'>
+  <title>RPS game proj</title>
+</head>
+<body>
+  <!-- header at the top of page -->
+  <header>
+    <!-- title of the game -->
+    <h1>Rock Paper Scissors</h1>
+
+  </header>
+
+  <!-- spot to hold the score of the game when lose or win happens -->
+  <div class = 'score_count'>
+
+    <!-- indicator of you side of score board -->
+    <div class='users' id= 'you'>You</div>
+
+    <!-- indicator of comp side of score board -->
+    <div class='users' id= 'comp'>Comp</div>
+
+    <!-- your actual score that will upddate -->
+    <span class= 'scoreboard' id= 'you_Score'>0 </span>
+
+    <!-- actual score for the comp that will update -->
+    <span class= 'scoreboard' id = 'comp_Score'> 0</span>
+
+  </div>
+
+  <!-- box that updates as selections are made  -->
+  <div class= 'results'>
+
+    <!-- message in box that updates when choices are mafe -->
+    <p>Click an option below</p>
+
+  </div>
+
+  <!-- div that houses the three options for the game -->
+    <div class= 'choices'>
+
+      <div class= 'choice' id= 'r'>
+        <!-- rock option -->
+        <img src= 'images/rock-pic.png' alt= 'Its a rock'>
+
+      </div>
+
+      <div class= 'choice' id='p'>
+        <!-- paper option -->
+        <img src= 'images/paper-pic.png' alt= 'Nice fresh paper'>
+
+      </div>
+
+      <div class= 'choice' id='s'>
+        <!-- scissors option -->
+        <img src= 'images/scissors-pic.png' alt= 'Snip snip i am scissors'>
+
+      </div>
+
+      <div class= 'choice' id='l'>
+        <!-- scissors option -->
+        <img src= 'images/lizard-pic.png' alt= 'sssss im a lizard'>
+
+      </div>
+
+      <div class= 'choice' id='a'>
+        <!-- scissors option -->
+        <img src= 'images/alien-pic.png' alt= 'take me to your leader'>
+
+      </div>
+
+      <p class = 'rules'>Rock beats Scissors & Lizard | Paper Beats Rock & Alien | Scissors beats Paper & Lizard | Lizard beats Alien & Paper | Alien beats Rock & Scissors</p>
+
+      <!-- message at bottom of page -->
+    <p id= 'action-message'> Choose your weapon</p>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
