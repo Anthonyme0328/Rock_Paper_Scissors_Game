@@ -40,6 +40,8 @@ header > h1{
 
 /* setting margin for the score board itself */
 .scoreboard{
+  font-family: 'Carter One';
+  color:black;
   margin: 0px 5px;
   position: relative;
   left: 65px;
@@ -55,6 +57,8 @@ header > h1{
 
 /* alignment of just the text inside the box */
 .results > p {
+  font-family: 'Carter One';
+  color: black;
   text-align: center;
 
 }
@@ -113,10 +117,12 @@ img{
 
 .rules{
   margin: 25px;
+  font-family: 'Raleway', sans-serif;
 }
 
 /* bottom text color assignment and positioning with mar pad and a font size */
 #action-message{
+  font-family: 'Carter One';
   text-align: center;
   color: rgba(172, 5, 19, 0.925);
   margin: 10px;
