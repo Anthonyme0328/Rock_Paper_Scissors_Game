@@ -12,7 +12,7 @@ body{
 
 /* setting the header section to one color with some additional padding */
 header{
-  background: white;
+  background: linear-gradient(orange, red);
   padding:20px;
 
 }
